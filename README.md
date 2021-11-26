@@ -98,6 +98,7 @@ Then I reprojected them using same method of `Rodrigues' rotation formula` .
  - Unit tests
  - Containerization
  - It looks weird, but I need to load the matrix from a text file instead of hard-coding it.
+ - Most importantly, the final fit doesnt seem fully circle. Maybe we need to use more close points.
 
 
 ## Acknowledgement
