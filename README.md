@@ -3,7 +3,7 @@
 
 
 ### Objective
-I had come across an interesting problem of fitting 3D points to a circle, - note, to a circle in 3D space- . That also, using C++ , and Eigen. I started looking for code. Couldnt find any. But I found a python implementation (referred in Acknowledgement Section). So I started converting it into C++. I enjoyed the full process. The achievements for me, 
+I had come across an interesting problem of fitting 3D points to a circle, - note, ***to a circle, not a sphere in 3D space*** . On top of that using C++, only using `Eigen` library! I started looking other implementations. Couldn't find any! But I found a python implementation (referred in the Acknowledgement Section). So I getting the basics , and converting the code into C++. I enjoyed the full process. The achievements for me are following, 
 
 - Familiarity with
 - - C++ Eigen library
@@ -13,7 +13,7 @@ I had come across an interesting problem of fitting 3D points to a circle, - not
 
 ### The Points
 
-I have hardcoded the points inside the code in lines `19-32`.
+I have hard-coded the points inside the code in lines `19-32`.
 
 ```
 [[1.69394097, 0.89699047, 4.06276299],
@@ -97,7 +97,7 @@ Then I reprojected them using same method of `Rodrigues' rotation formula` .
 
  - Unit tests
  - Containerazitaion
- - It looks weird, but need to load the matrix from a text file instead of hard-coding it.
+ - It looks weird, but I need to load the matrix from a text file instead of hard-coding it.
 
 
 ## Acknowledgement
