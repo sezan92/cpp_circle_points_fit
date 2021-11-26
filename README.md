@@ -3,7 +3,7 @@
 
 
 ### Objective
-I had come across an interesting problem of fitting 3D points to a circle, - note, ***to a circle, not a sphere in 3D space*** . On top of that using C++, only using `Eigen` library! I started looking other implementations. Couldn't find any! But I found a python implementation (referred in the Acknowledgement Section). So I getting the basics , and converting the code into C++. I enjoyed the full process. The achievements for me are following, 
+I had come across an interesting problem of fitting 3D points to a circle, - note, ***to a circle, not a sphere in 3D space*** . On top of that using C++, only using `Eigen` library! I started looking other implementations. Couldn't find any! But I found a python implementation (referred in the Acknowledgement Section). So started learning the basics and then converting the code into C++. I enjoyed the full process. The achievements for me are following, 
 
 - Familiarity with
 - - C++ Eigen library
